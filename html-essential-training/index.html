@@ -6,6 +6,51 @@
   <title>Document</title>
 </head>
 <body>
-  Hello!!!!!
+  <!-- headings: h1- to h6-tags give the page a hierarchy with h1 being used for the most significant heading on the page. h1 should only be used once -->
+  <h1>This is the main headline!</h1>
+  <!-- p-tags to put one or more elements into relevant groupings-->
+  <h2>This the first-subheading</h2>
+  <p>This is a pragraph</p>
+
+  <p>This is another paragraph, seperate from the second</p>
+  
+  <h3>Another subheading under h2</h3>
+  <p>Additional content under h2<p>
+  <!--Types of lists: ordered (ol) for an order to the list e.g. directions, unordered (ul) contain list-items(li)-->
+  <!--type-attribute used to change the numeration style-->
+  <ol type="I">
+    <li>first step</li>
+    <li>second step</li>
+    <li>third step</li>
+  </ol>
+  <!--Unordered list because theres no order behind the content of the list e.g. navigation menu on a website-->
+  <ul>
+    <li>date
+      <ul>
+        <li>first date</li>
+        <li>second date</li>
+      </ul>
+    </li>
+    <li>mood</li>
+    <li>power</li>
+  </ul>
+
+  <!--Quotations should be put in blockquote-tags and cite-tag (inline-element) is used for the title of the work/ publisher/magzine. Theres a difference between cite-tags and cite-attributes! -->
+  <blockquote cite="url-of-the-source">
+    <p>The content of the quote is in a p-tag in the blockquote-tag</p>
+  </blockquote>
+  <p>-who said the quote, "<cite>Title of the work in which the quote appears</cite>"
+
+  <!--q-element used for short quotes in sentences-->
+  <p>This is a sentence <q cite="url-of-the-source">the short quote in the sentence</q></p>
+
+  <!--Time-element is used to define specific peiod in time. datetime-attribute to format the time into machine-readable format-->
+  <time datetime="18:20">6:20 p.m.</time>
+  <time datetime="2025-03-01">Mar 1, 2025</time>
+
+  <!--Example of formatting text in html (mostly you will use CSS to style the content. these text are to show importance for SEO-related topics or ARIA)-->
+  <p>This is an exmaple of something <strong>important</strong> text. Or another style to <em>emphasize</em> text. </p>
+
+
 </body>
 </html>
